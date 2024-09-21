@@ -23,12 +23,6 @@ public class LateDriverScanner {
     public static void onContextInitialized() {
         checkContextImplementation();
 
-        if (isUsingPojavLauncher()) {
-            Console.instance().logMessage(MessageLevel.SEVERE, Component.translatable("sodium.console.pojav_launcher"), 30.0);
-            LOGGER.error("It appears that PojavLauncher is being used with an OpenGL compatibility layer. This will " +
-                    "likely cause severe performance issues, graphical issues, and crashes when used with " + MODNAME + ". This " +
-                    "configuration is not supported -- you are on your own!");
-        }
     }
 
     private static void checkContextImplementation() {
