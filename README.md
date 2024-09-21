@@ -1,11 +1,11 @@
 <img src="src/main/resources/icon.png" width="128">
 
-# Embeddium
+# Embeddium For Holy GL4ES
+[![build-snapshot](https://github.com/TanakaLun/embeddium-for-Holy-GL4ES/actions/workflows/build-snapshot.yml/badge.svg)](https://github.com/TanakaLun/embeddium-for-Holy-GL4ES/actions/workflows/build-snapshot.yml)
+[![build-release](https://github.com/TanakaLun/embeddium-for-Holy-GL4ES/actions/workflows/build-release.yml/badge.svg)](https://github.com/TanakaLun/embeddium-for-Holy-GL4ES/actions/workflows/build-release.yml)
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/sk9rgfiA?label=Modrinth&labelColor=%232D2D2D)](https://modrinth.com/mod/embeddium)
-[![Modrinth Version](https://img.shields.io/modrinth/v/sk9rgfiA?label=Latest%20version&labelColor=%232D2D2D)](https://modrinth.com/mod/embeddium/versions)
-[![](http://cf.way2muchnoise.eu/short_embeddium_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/embeddium)
-[![](http://cf.way2muchnoise.eu/versions/Available%20for_embeddium_full.svg)](https://www.curseforge.com/minecraft/mc-mods/embeddium/files)
+
+Embeddium unofficial fork, compatible with Holy-GL4ES renderer, please do not use this fork when any problems occurred feedback to the original Embeddium repository！！！
 
 Embeddium is a free and open-source performance mod for Minecraft clients. It is based on the last FOSS-licensed version of the Sodium codebase, and includes additional bugfixes & features for better mod compatibility.
 
