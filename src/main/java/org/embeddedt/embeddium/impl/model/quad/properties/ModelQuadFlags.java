@@ -26,6 +26,14 @@ public class ModelQuadFlags {
      * the normals of each vertex.
      */
     public static final int IS_VANILLA_SHADED = 0b1000;
+    /**
+     * Indicates that the particle sprite on this quad can be trusted to be the only sprite it shows.
+     */
+    public static final int IS_TRUSTED_SPRITE = (1 << 4);
+    /**
+     * Indicates that the flags are populated for the quad.
+     */
+    public static final int IS_POPULATED = (1 << 31);
 
     /**
      * @return True if the bit-flag of {@link ModelQuadFlags} contains the given flag
@@ -110,6 +118,8 @@ public class ModelQuadFlags {
         if (aligned) {
             flags |= IS_ALIGNED;
         }
+
+        flags |= IS_POPULATED;
 
         return flags;
     }
